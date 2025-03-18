@@ -169,6 +169,7 @@ nav{
     align-items: center;
     height: 100vh;
     padding: 20px;
+    margin: 120px 0;
 }
 .container {
     display: flex;
@@ -212,6 +213,44 @@ nav{
 .image-section img:last-child {
     grid-column: span 2;
     height: 250px; 
+}
+/* section--5--css */
+.image-div {
+   display: flex;
+   padding-bottom: 10px;
+}
+.control-rom{
+    padding-left: 10px;
+    width: 275px;
+}
+.generator-img{
+    width: 275px;
+}
+.renewable-energy{
+    width: 550px;
+}
+.section-image {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+
+}
+.custom-container {
+    background: white;
+    padding: 30px 104px;
+    border-radius: 8px;
+}
+.custom-span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.designing {
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+.custom-p{
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
