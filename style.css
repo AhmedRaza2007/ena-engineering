@@ -82,6 +82,8 @@ nav{
     background-color: #fff;
     display: flex;
     justify-content: center;
+    margin-top: 112px;
+    margin-bottom: 112px;
 }
 .custom-heading h1 {
     font-size: 24px;
@@ -106,6 +108,7 @@ nav{
     gap: 50px;
     padding: 30px;
     background-color: #fff;
+    margin-bottom: 112px;
 }
 .content div {
     max-width: 400px;
@@ -114,10 +117,17 @@ nav{
 .custom-size {
     font-size: 20px;
     color: #000;
+    padding-bottom: 24px;
 }
 .custom-ul {
     list-style-type: disc;
     padding-left: 20px;
+}
+.custom-ul li {
+    font-weight: 400;
+    padding-bottom:24px;
+    font-size: 14px;
+    
 }
 .image {
     margin-top: 20px;
@@ -128,6 +138,30 @@ nav{
     display: block;
     margin: 0 37px;
 }
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 112px;
+}
+.deep-dive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./img/bridge-image.svg') no-repeat center center/cover;
+}
+.text {
+    font-size: 112px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.deep-dive-section{
+    padding: 97px 0;
+}
+
 
 @media (max-width: 768px) {
     .content {
