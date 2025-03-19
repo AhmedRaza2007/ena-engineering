@@ -291,10 +291,60 @@ justify-content: space-between;
     max-width: 250px;
     border-radius: 5px;
 }
+/* -- Section--css--7-- */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-top: 120px;
+}
+.content-box {
+    width: 45%;
+}
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.list-item {
+    margin-bottom: 20px;
+}
+.layout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.photo-frame {
+    flex: 1 1 45%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-frame img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.layout-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 112px;
+}
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
         text-align: center;
+    }
+    .layout-container {
+        flex-direction: column;
     }
     .image-section {
         grid-template-columns: 1fr;
