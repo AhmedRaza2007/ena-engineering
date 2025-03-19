@@ -320,6 +320,7 @@ justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 88px 0
 }
 .photo-frame {
     flex: 1 1 45%; 
@@ -337,6 +338,56 @@ justify-content: space-between;
     justify-content: center;
     align-items: center;
     margin-top: 112px;
+}
+/* --Section--css--8-- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 77px;
+    background-color: black;
+    margin-top: 112px;  
+}
+
+.footer-logo img{
+    padding-right: 12px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.address{
+    padding-right: 180px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.footer h3 {
+    color: #E03740;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer p{
+    color: white;
+}
+.contact-div{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer div {
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 768px) {
     .container {
