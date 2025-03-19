@@ -180,8 +180,8 @@ nav{
 .text-section {
     flex: 1;
     min-width: 300px;
-    padding: 60px;
-    padding-right: 110px;
+    padding: 33px;
+    padding-right: 65px;
 }
 .text-section h2 {
     font-size: 24px;
@@ -191,29 +191,22 @@ nav{
 }
 .text-section p {
     margin: 20px 0;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 300;
 }
 .text-section p span {
     font-weight: bold;
+    font-size: 20px;
 }
 .image-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    max-width: 600px;
+    display: flex;
+    padding-bottom: 10px;
+   
+}
+.hvac-img{
+    padding-left: 10px;
 }
 
-.image-section img {
-    width: 100%;
-    height: 200px; 
-    object-fit: cover; 
-    border-radius: 5px;
-}
-
-.image-section img:last-child {
-    grid-column: span 2;
-    height: 250px; 
-}
 /* section--5--css */
 .image-div {
    display: flex;
@@ -232,12 +225,12 @@ nav{
 .section-image {
 display: flex;
 justify-content: space-between;
-padding: 20px;
+    padding: 140px 20px;                                            
 
 }
 .custom-container {
     background: white;
-    padding: 30px 104px;
+    padding: 30px 83px;
     border-radius: 8px;
 }
 .custom-span{
@@ -246,13 +239,58 @@ padding: 20px;
 }
 
 .designing {
-    margin-bottom: 20px;
-    margin-top: 32px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
 }
-.custom-p{
-    margin-bottom: 20px;
+.crafting{
+    padding-bottom: 32px;
 }
 
+/* -- Section--css--6 -- */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-content {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px 70px;
+    color: #141515;
+}
+.text-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 32px;       
+}
+.text-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+.div-span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.images {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.images img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+}
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
