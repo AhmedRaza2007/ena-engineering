@@ -140,9 +140,9 @@ nav {
 
 .custom-heading p {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     color: #666;
-    width: 556px;
+    width: 765px;
 }
 
 .red-line {
@@ -162,13 +162,22 @@ nav {
     margin-bottom: 112px;
 }
 
-.content div {
+/* .content div {
     max-width: 400px;
     text-align: center;
+} */
+.content div {
+    max-width: 582px;
+    text-align: center;
 }
-
+/* 
 .custom-size {
     font-size: 20px;
+    color: #000;
+    padding-bottom: 24px;
+} */
+.custom-size {
+    font-size: 24px;
     color: #000;
     padding-bottom: 24px;
 }
@@ -178,11 +187,17 @@ nav {
     padding-left: 20px;
 }
 
-.custom-ul li {
+/* .custom-ul li {
     font-weight: 400;
     padding-bottom: 24px;
     font-size: 14px;
 
+} */
+
+.custom-ul li {
+    font-weight: 400;
+    padding-bottom: 24px;
+    font-size: 20px;
 }
 
 .image {
@@ -191,7 +206,7 @@ nav {
 
 .image img {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1529px;
     display: block;
     margin: 0 30px;
 }
@@ -284,22 +299,25 @@ nav {
 
 .control-rom {
     padding-left: 10px;
-    width: 275px;
+    width: 301px;
 }
 
-.generator-img {
+/* .generator-img {
     width: 275px;
-}
+} */
+ .generator-img{
+    width: 301px;
+ }
 
 .renewable-energy {
-    width: 550px;
+    width: 600px;
 }
 
 .section-image {
-    display: flex;
+    display: flex
+;
     justify-content: space-between;
-    padding: 140px 20px;
-
+    padding: 140px 180px;
 }
 
 .custom-container {
@@ -635,6 +653,22 @@ nav {
         padding-left: 10px;
         width: 200px;
     }
+    .generator-img {
+    width: 275px;
+}
+.control-rom {
+    padding-left: 10px;
+    width: 275px;
+}
+.renewable-energy {
+    width: 550px;
+}
+.section-image {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 20px;
+
+}
     .footer {
         flex-direction: column;
         text-align: center;
